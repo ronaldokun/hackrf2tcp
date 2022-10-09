@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "hackrf2tcp"
+  site-url: "https://ronaldokun.github.io/hackrf2tcp"
+  description: "This repository holds python wrappers of hackrf_sweep cli"
+  repo-branch: master
+  repo-url: "https://github.com/ronaldokun/hackrf2tcp"
