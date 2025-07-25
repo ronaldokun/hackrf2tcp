@@ -12,7 +12,7 @@ TIMEOUT = 600
 FORMAT = 'utf-8'
 DISCONNECT_MSG = bytes(f"{10:<{HEADER_SIZE}}", 'utf-8') + b'DISCONNECT'
 END_OF_MESSAGE = ''
-CLI = 'hackrf_sweep.exe'
+CLI = 'hackrf_sweep'
 
 def parse_command(message):
     cmds = []
